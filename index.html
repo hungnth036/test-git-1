@@ -1,68 +1,105 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WELLCOM</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            margin: 20px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            font-size: 16px;
-        }
-        .profile-image {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-top: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+    <title>Nguyễn Trọng Hưng - Trang Web Cá Nhân</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+<!-- Header Section -->
 <header>
-    <h1>Xin chao</h1>
-    <img src="profile.jpg" alt="Ảnh đại diện của bạn" class="profile-image">
-    <p>HUNG 036</p>
+    <nav>
+        <ul>
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#services">Dịch vụ</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section>
-    <h2>WEB</h2>
+<!-- Home Section -->
+<section id="home">
+    <div class="home-content">
+        <p>.</p>
+        <h1>Xin chào, Đây là Website của</h1>
+        <p>.</p>
+        <h1> <span>Nguyễn Hưng</span></h1>
+        <p>.</p>
+        <p>Web cá nhân nơi tôi chia sẻ các dự án và thử nghiệm cá nhân.</p>
+        <p>.</p>
+        <a href="#contact" class="btn">Hãy liên hệ tôi</a>
+        <p>.</p>
+        <p>.</p>
+    </div>
+    <div class="home-image">
+        <img src="image/avt.jpg" alt="Nguyễn Trọng Hưng">
+    </div>
+</section>
 
+<!-- About Section -->
+<section id="about">
+    <h2>Giới thiệu</h2>
+    <p>Tên: Nguyễn Trọng Hưng.</p>
+    <p>Năm sinh: 2004.</p>
+    <p>Quê quán: Đắk Lắk.</p>
+    <p>Công việc: Sinh viên Khoa CNTT trường ĐH Sư Phạm Kỹ Thật Tp. Hồ Ch Minh.</p>
+</section>
 
+<!-- Services Section -->
+<section id="services">
+    <h2>Dịch vụ</h2>
+    <div class="services-container">
+        <div class="service">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Phát triển Web</h3>
+            <p>Tôi tạo ra các trang web chuyên nghiệp và hiệu quả.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>Phát triển Ứng dụng</h3>
+            <p>Ứng dụng di động sáng tạo và dễ sử dụng.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-database"></i>
+            <h3>Quản lý Cơ sở dữ liệu</h3>
+            <p>Thiết kế và quản lý dữ liệu hiệu quả.</p>
+        </div>
+    </div>
+</section>
 
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Dự án</h2>
+    <div class="projects-container">
+        <div class="project">
+            <h3>Dự án 1</h3>
+            <p>Mô tả dự án 1.</p>
+        </div>
+        <div class="project">
+            <h3>Dự án 2</h3>
+            <p>Mô tả dự án 2.</p>
+        </div>
+        <div class="project">
+            <h3>Dự án 3</h3>
+            <p>Mô tả dự án 3.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
     <h2>Liên hệ</h2>
     <p>Email: hungnth036@gmail.com</p>
-    <p>Số điện thoại: 0568855599</p>
+    <p>SĐT: 0568855599.</p>
+    <a href="mailto:youremail@example.com" class="btn">Gửi Email</a>
 </section>
 
 <footer>
-    <p>Nguyễn Trọng Hưng. All Rights Reserved.</p>
+    <p>&copy; 2024 Nguyễn Trọng Hưng. All rights reserved.</p>
 </footer>
 </body>
 </html>
